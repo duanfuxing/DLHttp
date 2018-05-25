@@ -16,7 +16,7 @@
 ```json
 {
     "require": {
-        "duanfuxing/DLHttp": "2.*"
+        "duanfuxing/DLHttp": "1.*"
     }
 }
 ```
