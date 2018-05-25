@@ -31,7 +31,14 @@
 
 ```php
 <?php
-$http = HttpRequest::newSession();
+
+        // 使用方式 1: 静态连贯操作
+       HttpRequest::newSession();
+
+
+        // 使用方式 2: 实例化连贯操作
+        $http = new HttpRequest();
+
 $response = $http->retry(3) // 失败重试3次
                  ->ua('Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)')
                  ->referer('http://www.baidu.com/')
