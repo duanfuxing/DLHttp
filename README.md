@@ -155,6 +155,3 @@ var_dump('jsonp:', $http->get('https://graph.qq.com/oauth2.0/token')->jsonp($ass
 // 你也可以获取时候进行编码转换，如下代码：gb2312转utf-8
 // var_dump('jsonp:', $http->get('https://graph.qq.com/oauth2.0/token')->jsonp($assoc, 'gb2312', 'utf-8'));
 ```
-
-
-具体详见Demo
