@@ -2,7 +2,7 @@
 
 ## 简介
 
-一个基于PHP cURL的开源HTTP类库，支持链式操作，省去繁杂的cURL使用方法，简单易用。
+一个基于PHP cURL的开源HTTP类库，支持链式操作，简单易用。
 
 支持所有常见的GET、POST、PUT、DELETE、UPDATE等请求方式，支持设置和读取header、Cookie、请求参数、失败重试、限速、代理、证书等。
 
@@ -10,20 +10,6 @@
 
 技术文档：还在完善
 
-## Composer
-
-本项目可以使用composer安装，遵循psr-4自动加载规则，在你的 `composer.json` 中加入下面的内容
-```json
-{
-    "require": {
-        "duanfuxing/DLHttp": "1.*"
-    }
-}
-```
-
-然后执行 `composer update` 安装。
-
-之后你便可以使用 `include "vendor/autoload.php";` 来自动加载类。（ps：不要忘了namespace）
 
 ## 用法
 
