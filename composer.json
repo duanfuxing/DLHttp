@@ -1,0 +1,11 @@
+{
+    "name": "duanfuxing/DLHttp",
+    "description": "一个基于PHP cURL的开源HTTP类库，支持链式操作,
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DLHttp\\Util\\": "./"
+        }
+    }
+}
