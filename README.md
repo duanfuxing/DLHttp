@@ -16,7 +16,7 @@
 ```json
 {
     "require": {
-        "yurunsoft/yurun-http": "2.*"
+        "duanfuxing/yurun-http": "2.*"
     }
 }
 ```
